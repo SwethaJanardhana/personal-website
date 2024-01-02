@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.main_details{
+    background-color: rgb(195, 190, 175); 
+    margin: 10px;
+    margin-right: 0;
+}
+
+.display_details{
+    background-color:rgba(210, 216, 214, 0.433);
+    width:80%;
+}
+
+.my_profile{
+    list-style: none;
+}
+
+.my_name{
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+.profile_pic{
+    
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.my_details{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.my-name{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list_elements{
+    align-items: center;
+    font-size: 18px;
+    line-height: 2;
+    padding-left: 45px;
+}
+
+.display_details{
+    margin: 10px;
+    padding:40px;
+}
+
+.display_details h2{
+    font-size:50px;
+    background-color: rgb(190, 195, 203);
+}
+
+.display_details button{
+    border: 2px solid black;
+    font-size:20px;
+    width:150px;
+    padding:20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact_details{
+    display: none;
+}
+
+.education{
+   /* display:none;*/
+}
+
+.education_details,
+.personal_info{
+    align-items: center;
+    line-height: 2;
+    font-size: 30px;
+}
+
+.footer_class{
+    position:fixed;
+    bottom:70px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
